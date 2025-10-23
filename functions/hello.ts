@@ -1,5 +1,4 @@
-import {PagesFunc}
+export function onRequest(context: any) {
+  return new Response("Hello, world!");
 
-export const onRequest: PagesFunction = async () => {
-  return new Response("Hello from Cloudflare!");
-};
+}
